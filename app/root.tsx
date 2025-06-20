@@ -23,17 +23,31 @@ export const links: Route.LinksFunction = () => [
   },
 ];
 
+import { Navbar } from "./components/Navbar";
+
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
       </head>
-      <body>
-        {children}
+      <body className="min-h-screen bg-background font-sans antialiased">
+        <div className="relative flex min-h-screen flex-col">
+          <Navbar />
+          <main className="flex-1">
+            {children}
+          </main>
+          <footer className="border-t py-6 md:py-0">
+            <div className="container flex flex-col items-center justify-between gap-4 md:h-24 md:flex-row">
+              <p className="text-center text-sm leading-loose text-muted-foreground md:text-left">
+                &copy; {new Date().getFullYear()} We-Create. All rights reserved.
+              </p>
+            </div>
+          </footer>
+        </div>
         <ScrollRestoration />
         <Scripts />
       </body>
