@@ -56,7 +56,15 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
+<<<<<<< Updated upstream
   return <Outlet />;
+=======
+  return (
+    
+      <Outlet />
+    
+  );
+>>>>>>> Stashed changes
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

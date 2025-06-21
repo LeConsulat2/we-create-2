@@ -19,7 +19,15 @@ export function Navbar() {
     { name: 'Portfolios', path: '/portfolios' },
     { name: 'Reflections', path: '/reflections' },
     { name: 'AI Prompts', path: '/ai-prompts' },
+<<<<<<< Updated upstream:app/components/Navbar.tsx
     { name: 'AI Prompts 2', path: '/ai-prompts-2' },
+=======
+    //{ name: 'AI Prompts 2', path: '/ai-prompts-2' },
+    { name: 'AI Tools', path: '/ai-tools' },
+    { name: 'Suggestions', path: '/suggestions' },
+    { name: 'AI News Archive', path: '/ai-news-archive' },
+    //{ name: 'Reflections', path: '/reflections' },
+>>>>>>> Stashed changes:app/common/components/Navbar.tsx
   ];
 
   useEffect(() => {
