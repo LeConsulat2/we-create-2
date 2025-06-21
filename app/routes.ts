@@ -1,45 +1,8 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-import { type RouteConfig, index, route } from "@react-router/dev/routes";
-
-export default [
-  index("../pages/home.tsx"),
-  route("weekly-ai", "../pages/weekly-ai.tsx"),
-  route("community", "../pages/community.tsx"),
-  route("ai-prompts", "../pages/ai-prompts.tsx"),
-  route("ai-prompts-2", "../pages/ai-prompts-2.tsx"),
-  route("portfolios", "../pages/portfolios.tsx"),
-  route("reflections", "../pages/reflections.tsx"),
-] satisfies RouteConfig;
-=======
 import { type RouteConfig, index, route, layout } from "@react-router/dev/routes";
 
 export default [
   index("./common/pages/home.tsx"),
 
-=======
-import { type RouteConfig, index, route, layout } from "@react-router/dev/routes";
-
-export default [
-  index("./common/pages/home.tsx"),
-
->>>>>>> Stashed changes
-=======
-import { type RouteConfig, index, route, layout } from "@react-router/dev/routes";
-
-export default [
-  index("./common/pages/home.tsx"),
-
->>>>>>> Stashed changes
-=======
-import { type RouteConfig, index, route, layout } from "@react-router/dev/routes";
-
-export default [
-  index("./common/pages/home.tsx"),
-
->>>>>>> Stashed changes
   // 주요 기능 페이지들 (레이아웃 없음)
   route("weekly-ai", "./features/ai-news/pages/weekly-ai.tsx"),
   route("community", "./features/community/pages/community.tsx"),
@@ -59,4 +22,3 @@ export default [
     route("logout", "./features/auth/pages/logout.tsx"),
   ]),
 ] satisfies RouteConfig;
->>>>>>> Stashed changes
