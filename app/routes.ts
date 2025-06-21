@@ -1,6 +1,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 import { type RouteConfig, index, route } from "@react-router/dev/routes";
 
 export default [
@@ -18,6 +19,13 @@ import { type RouteConfig, index, route, layout } from "@react-router/dev/routes
 export default [
   index("./common/pages/home.tsx"),
 
+=======
+import { type RouteConfig, index, route, layout } from "@react-router/dev/routes";
+
+export default [
+  index("./common/pages/home.tsx"),
+
+>>>>>>> Stashed changes
 =======
 import { type RouteConfig, index, route, layout } from "@react-router/dev/routes";
 
