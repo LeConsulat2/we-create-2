@@ -23,7 +23,7 @@ export const links: Route.LinksFunction = () => [
   },
 ];
 
-import { Navbar } from "./components/Navbar";
+import { Navbar } from "./common/components/Navbar";
 
 export function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -56,15 +56,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-<<<<<<< Updated upstream
   return <Outlet />;
-=======
-  return (
-    
-      <Outlet />
-    
-  );
->>>>>>> Stashed changes
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

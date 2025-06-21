@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router";
 import { Menu, X, User } from "lucide-react";
-import { Button } from "../ui/button";
+import { Button } from "../../ui/button";
 
 // Simple cn utility for class name merging
 function cn(...classes: (string | undefined)[]) {
