@@ -21,8 +21,11 @@ export function Navbar() {
     { name: 'AI Prompts', path: '/ai-prompts' },
 <<<<<<< Updated upstream:app/components/Navbar.tsx
 <<<<<<< Updated upstream:app/components/Navbar.tsx
+<<<<<<< Updated upstream:app/components/Navbar.tsx
     { name: 'AI Prompts 2', path: '/ai-prompts-2' },
 =======
+=======
+>>>>>>> Stashed changes:app/common/components/Navbar.tsx
 =======
 >>>>>>> Stashed changes:app/common/components/Navbar.tsx
     //{ name: 'AI Prompts 2', path: '/ai-prompts-2' },
@@ -31,6 +34,9 @@ export function Navbar() {
     { name: 'AI News Archive', path: '/ai-news-archive' },
     //{ name: 'Reflections', path: '/reflections' },
 <<<<<<< Updated upstream:app/components/Navbar.tsx
+<<<<<<< Updated upstream:app/components/Navbar.tsx
+>>>>>>> Stashed changes:app/common/components/Navbar.tsx
+=======
 >>>>>>> Stashed changes:app/common/components/Navbar.tsx
 =======
 >>>>>>> Stashed changes:app/common/components/Navbar.tsx
