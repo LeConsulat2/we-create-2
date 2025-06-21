@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router";
 import { Search, Filter, Plus, MessageSquare, ThumbsUp, Share2, MoreHorizontal, Calendar } from "lucide-react";
-import { Button } from "../app/ui/button";
-import { Input } from "../app/ui/input";
-import { Avatar, AvatarFallback, AvatarImage } from "../app/ui/avatar";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "../app/ui/tabs";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "../app/ui/card";
-import { Badge } from "../app/ui/badge";
+import { Button } from "@/ui/button";
+import { Input } from "@/ui/input";
+import { Avatar, AvatarFallback, AvatarImage } from "@/ui/avatar";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/ui/tabs";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription, CardFooter } from "@/ui/card";
+import { Badge } from "@/ui/badge";
 
 // Mock data
 const featuredMembers = [

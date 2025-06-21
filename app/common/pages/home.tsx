@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
-import { Button } from "@/ui/button";
+
 import { Link } from "react-router";
+import { Button } from "@/ui/button";
 
 export function meta() {
   return [
@@ -11,7 +12,7 @@ export function meta() {
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen pt-16">
+    <div className="flex flex-col w-full max-w-7xl mx-auto px-4 min-h-screen pt-16">
       {/* Hero Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48">
         <div className="container px-4 md:px-6">

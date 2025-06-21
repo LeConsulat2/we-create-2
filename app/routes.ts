@@ -10,7 +10,6 @@ export default [
   // route("ai-prompts-2", "./features/ai-prompts/pages/ai-prompts-2.tsx"),
   route("ai-tools", "./features/ai-tools/pages/ai-tools.tsx"),
   route("portfolios", "./features/portfolios/pages/portfolios.tsx"),
-  route("portfolios-2", "./features/portfolios/pages/portfolios-2.tsx"),
   route("suggestions", "./features/suggestions/pages/suggestions.tsx"),
   route("ai-news-archive", "./features/ai-news-archives/pages/ai-news-archive.tsx"),
   // route("reflections", "./features/reflections/pages/reflections.tsx"),
